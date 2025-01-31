@@ -1,4 +1,4 @@
-FROM vm/ubuntu:18.04
+FROM tendencia/buildbase:v1.0.0
 
 # install docker-ce (from tutorial for ubuntu)
 RUN apt-get update && \
